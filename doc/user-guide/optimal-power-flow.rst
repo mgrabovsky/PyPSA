@@ -657,7 +657,7 @@ To build custom constraints, users can access and modify the Linopy model instan
 Given a network ``n`` and the corresponding model instance ``m``, some key functions used in the code for working with custom constraints include:
 
 * :py:meth:`Network.optimize.create_model`: Creates a Linopy model instance for the PyPSA ``n``.
-* :py:meth:`linopy.model.variables`: Accesses the optimization variables of the Linopy model instance.
+* ``linopy.model.variables``: Accesses the optimization variables of the Linopy model instance.
 * :py:meth:`linopy.model.add_variables`: Adds custom variables to the Linopy model instance.
 * :py:meth:`linopy.model.add_constraints`: Adds custom constraints to the Linopy model instance.
 * :py:meth:`Network.optimize.solve_model`: Solves the optimization problem using the current Linopy model instance and updates the PyPSA network with the solution.
