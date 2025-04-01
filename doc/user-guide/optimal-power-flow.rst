@@ -498,7 +498,7 @@ the end of their lifetime, for example, the onwind-2030 generator built in 2030
 cannot contribute to electricity generation in the 2025 investment period.
 To ensure that the technical potential for onshore wind in the region is not
 exceeded by the 4 onshore wind generators in our example, one has to add an
-additional global constraint (``type=tech_capacity_expansion_limit``, see further description above).
+additional global constraint (``type=tech_capacity_expansion_limit``, see further description below).
 
 Note that the ``capital_cost`` of the assets is now the fixed annual costs, including annuity and FOM.
 
@@ -514,7 +514,7 @@ Global constraints
 
 Global constraints apply to more than one component.
 They are activated if a
-global constraint with the corresponding ``type`` is added to the n.
+global constraint with the corresponding ``type`` is added to the network.
 By default, the constraint applies to all investment periods. For multi-decade
 optimisation, a global constraint can be set for one investment period only
 (e.g. a :math:`\mathrm{CO}_2` limit for a specific investment year) by specifying this in the
