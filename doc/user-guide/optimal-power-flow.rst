@@ -612,7 +612,7 @@ Through the ``pypsa.optimization.abstract`` module, PyPSA provides a number of p
 Rolling-horizon optimization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The function :py:meth:`pypsa.Network.optimize:optimize_with_rolling_horizon` allows to
+The function :py:meth:`pypsa.Network.optimize.optimize_with_rolling_horizon` allows to
 optimize system dispatch in a sequential rolling-horizon fashion. This is useful
 for chunking large operational problems or considering myopic operational
 foresight.
